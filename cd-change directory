@@ -1,0 +1,27 @@
+[mca@localhost mes]$ cd desktop
+bash: cd: desktop: No such file or directory
+[mca@localhost mes]$ ls
+1.txt
+[mca@localhost mes]$ cd Desktop
+bash: cd: Desktop: No such file or directory
+[mca@localhost mes]$ mkdir new
+[mca@localhost mes]$ cd new
+[mca@localhost new]$ mkdir mes
+[mca@localhost new]$ cd mes
+[mca@localhost mes]$ touch 1.txt
+[mca@localhost mes]$ 1.txt
+bash: 1.txt: command not found...
+[mca@localhost mes]$ more 1.txt
+[mca@localhost mes]$ more -d 1.txt
+[mca@localhost mes]$ more 1
+more: stat of 1 failed: No such file or directory
+[mca@localhost mes]$ cat 1.txt
+[mca@localhost mes]$ cat > 1.txt
+hello
+hello
+[mca@localhost mes]$ pwd
+/home/mca/Desktop/new/mes/new/mes
+[mca@localhost mes]$ expr 5 + 6
+11
+[mca@localhost mes]$ 
+
