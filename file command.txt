@@ -1,0 +1,81 @@
+[mca@localhost ~]$ cd Desktop
+[mca@localhost Desktop]$ ls
+NewDir  s2.txt
+[mca@localhost Desktop]$ ls -al
+total 8
+drwxr-xr-x.  3 mca mca   34 Feb 28 15:05 .
+drwx------. 16 mca mca 4096 Feb 28 14:59 ..
+drwxrwxr-x.  3 mca mca   17 Feb 26 15:07 NewDir
+-rw-rw-r--.  1 mca mca   36 Feb 26 15:23 s2.txt
+[mca@localhost Desktop]$ ls -lt
+total 4
+-rw-rw-r--. 1 mca mca 36 Feb 26 15:23 s2.txt
+drwxrwxr-x. 3 mca mca 17 Feb 26 15:07 NewDir
+[mca@localhost Desktop]$ cd
+[mca@localhost ~]$ pwd
+/home/mca
+[mca@localhost ~]$ mkdir New
+[mca@localhost ~]$ cd New
+[mca@localhost New]$ cat > newfile.txt
+LINUX IS A OPEN SORCE OPERATING SYSTEM
+APPLE
+ORANGE
+JASMIN
+KIWI
+DATES 
+PINAPPLE
+PAPPAYA
+GRAPES
+WATERMELON
+LEMON
+BANANA
+OLIVE
+APRICOT 
+[mca@localhost New]$ more newfile.txt
+LINUX IS A OPEN SORCE OPERATING SYSTEM
+APPLE
+ORANGE
+JASMIN
+KIWI
+DATES
+PINAPPLE
+PAPPAYA
+GRAPES
+WATERMELON
+LEMON
+BANANA
+OLIVE
+APRICOT
+[mca@localhost New]$ head newfile.txt
+LINUX IS A OPEN SORCE OPERATING SYSTEM
+APPLE
+ORANGE
+JASMIN
+KIWI
+DATES
+PINAPPLE
+PAPPAYA
+GRAPES
+WATERMELON
+[mca@localhost New]$ tail newfile.txt
+KIWI
+DATES
+PINAPPLE
+PAPPAYA
+GRAPES
+WATERMELON
+LEMON
+BANANA
+OLIVE
+APRICOT
+[mca@localhost New]$ tail -f newfile.txt
+KIWI
+DATES
+PINAPPLE
+PAPPAYA
+GRAPES
+WATERMELON
+LEMON
+BANANA
+OLIVE
+APRICOT

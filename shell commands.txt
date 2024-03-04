@@ -1,0 +1,66 @@
+welcome to new user mca
+[mca@localhost ~]$ clear
+[mca@localhost ~]$ ls -l
+total 0
+drwxr-xr-x. 2 mca mca 6 Aug 24 14:50 Desktop
+drwxr-xr-x. 2 mca mca 6 Jan 18 15:17 Documents
+drwxr-xr-x. 2 mca mca 6 Aug 24 14:51 Downloads
+drwxrwxr-x. 2 mca mca 6 Aug 24 14:51 mongodata
+drwxr-xr-x. 2 mca mca 6 Aug 24 14:51 Music
+drwxr-xr-x. 2 mca mca 6 Aug 24 14:51 Pictures
+drwxr-xr-x. 2 mca mca 6 Apr  8  2022 Public
+drwxr-xr-x. 2 mca mca 6 Apr  8  2022 Templates
+drwxr-xr-x. 2 mca mca 6 Apr  8  2022 Videos
+[mca@localhost ~]$ ls -i
+      156 Desktop    134856542 mongodata  402653333 Public
+      157 Documents  134217881 Music      268580818 Templates
+134217880 Downloads  268580819 Pictures   402653334 Videos
+[mca@localhost ~]$ ls -a
+.              .config            .git           .mysql_history      Videos
+..             .dbshell           .gitconfig     .palindrome.sh.swp  .viminfo
+.arr.sh.swp    Desktop            .ICEauthority  Pictures            .yourflag
+.bash_history  Documents          .local         .pki                .zshrc
+.bash_logout   Downloads          mongodata      Public
+.bash_profile  .esd_auth          .mongorc.js    .ssh
+.bashrc        .extension.sh.swo  .mozilla       .swp
+.cache         .extension.sh.swp  Music          Templates
+[mca@localhost ~]$ ls -lh
+total 0
+drwxr-xr-x. 2 mca mca 6 Aug 24 14:50 Desktop
+drwxr-xr-x. 2 mca mca 6 Jan 18 15:17 Documents
+drwxr-xr-x. 2 mca mca 6 Aug 24 14:51 Downloads
+drwxrwxr-x. 2 mca mca 6 Aug 24 14:51 mongodata
+drwxr-xr-x. 2 mca mca 6 Aug 24 14:51 Music
+drwxr-xr-x. 2 mca mca 6 Aug 24 14:51 Pictures
+drwxr-xr-x. 2 mca mca 6 Apr  8  2022 Public
+drwxr-xr-x. 2 mca mca 6 Apr  8  2022 Templates
+drwxr-xr-x. 2 mca mca 6 Apr  8  2022 Videos
+[mca@localhost ~]$ ls -f
+.              .esd_auth      Documents      .yourflag           .arr.sh.swp
+..             .ICEauthority  Music          .swp                .viminfo
+.mozilla       .local         Pictures       .gitconfig          .mysql_history
+.bash_logout   .cache         Videos         .palindrome.sh.swp  .dbshell
+.bash_profile  Desktop        .pki           .extension.sh.swp
+.bashrc        Downloads      .bash_history  .extension.sh.swo
+.zshrc         Templates      .git           mongodata
+.config        Public         .ssh           .mongorc.js
+[mca@localhost ~]$ ls -s
+total 0
+0 Desktop    0 Downloads  0 Music     0 Public     0 Videos
+0 Documents  0 mongodata  0 Pictures  0 Templates
+[mca@localhost ~]$ ls -d
+.
+[mca@localhost ~]$ ls -1
+Desktop
+Documents
+Downloads
+mongodata
+Music
+Pictures
+Public
+Templates
+Videos
+[mca@localhost ~]$ ls -t
+Documents  Music      Downloads  Videos  Templates
+Pictures   mongodata  Desktop    Public
+[mca@localhost ~]$ 
